@@ -39,6 +39,7 @@ public class AuthenticationTest {
 
         UsernamePasswordToken token = new UsernamePasswordToken("mark","123456");
 
+
         // 3. 登录
         try {
             subject.login(token);
